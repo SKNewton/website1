@@ -1,14 +1,16 @@
 img{
-  height: 400px;
+  height: 500px;
 }
-h1,h2,a{
+h1,h2,a,p{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .center{
   text-align: center
 }
 .top{
-  text-align: right;
+  text-align: center;
+  margin: 30px;
+  margin-right: 50px;
 }
 a:link{
   color: #b4b4cf;
@@ -24,11 +26,32 @@ a:hover{
 }
 .top{
   overflow: hidden;
+  text-align: left;
 }
 .top a {
   float: right;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 35px;
   text-decoration: none;
   font-size: 17px;
+}
+
+body { 
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+p{
+  text-align: left;
+  margin-right: 288.425px;
+  margin-left: 288.425px;
 }
