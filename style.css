@@ -50,8 +50,8 @@ body {
         opacity: 1; 
      } 
 } 
-p{
-  text-align: left;
-  margin-right: 288.425px;
-  margin-left: 288.425px;
+
+.wrapper {
+    margin: auto;
+    max-width: 53.5rem;
 }
